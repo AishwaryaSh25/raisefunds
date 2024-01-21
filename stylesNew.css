@@ -1,0 +1,184 @@
+* {
+  margin: 0%;
+
+  border: border-box;
+}
+
+.RaiseFunds {
+  font-weight: bolder;
+  background-color: rgb(67, 135, 137);
+  text-align: center;
+  height: 100px;
+  padding-top: 15px;
+  font-size: 87px;
+  color: darkorange;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.9px;
+  transition: all 0.3s ease-in-out;
+}
+.RaiseFunds:hover{
+  color: rgb(241, 69, 6);
+}
+.crowd {
+  font-weight: bolder;
+  background-color: rgb(67, 135, 137);
+  text-align: center;
+  height: 80px;
+  font-size: 26px;
+  color: rgb(230, 227, 227);
+  letter-spacing: 0.5px;
+  padding-bottom: 10px;
+}
+.responsive {
+  width: 100%;
+  height: 580px;
+}
+
+.Cards {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #c6cac9;
+
+}
+  
+  .box-img:hover {
+    transform: scale(1.05); 
+  }
+
+  .box-content h2{
+    padding-bottom: 20px;
+  }
+  
+  
+
+.Disc {
+  background-color: #c6cac9;
+  text-align: center;
+  height: 65px;
+  font-size: 45px;
+  color: black;
+  font-weight: bolder;
+  padding-top: 40px;
+  transition: all 0.3s ease-in-out;
+}
+.box {
+  border: none;
+  height: 440px;
+  width: 23%;
+  background-color: white;
+  padding: 20px 0px 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+.box-img {
+  height: 300px;
+  background-size: cover;
+}
+.box-content {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.box-content p {
+  color: rgb(15, 113, 226);
+}
+.Links {
+  background-color: rgb(229, 205, 99);
+  text-align: center;
+  height: 70px;
+  font-size: 26px;
+
+  padding-top: 36px;
+}
+.rate {
+  background-color: rgb(5, 152, 189);
+  text-align: center;
+  height: 60px;
+  font-size: 23px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 30px;
+  padding-bottom: 22px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  word-spacing: 4px;
+}
+#Rating {
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(39, 39, 236);
+}
+#login {
+  font-size: 27px;
+  background-color: lightgray;
+  color: rgb(0, 95, 126);
+  border-radius: 17px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 5px 8px;
+
+  letter-spacing: 2px;
+  border-color: deepskyblue;
+  font-weight: bolder;
+  border-width: 5px;
+  margin-bottom: 10px;
+}
+.logind {
+  background-color: rgb(67, 135, 137);
+  text-align: center;
+}
+
+#searchInput {
+  padding: 10px 8px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 15px;
+  border-radius: 23px;
+  text-align: center;
+  margin-left: 24px;
+  border-color: cornflowerblue;
+  border-width: 5px;
+  font-weight: bolder;
+  background-color: white;
+  margin-right: 10px;
+}
+#resultsList {
+  list-style: none;
+  font-size: 18px;
+  background-color: #c2c0ef;
+  text-align: end;
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
+.search-box {
+  background-color: #c2c0ef;
+  text-align: end;
+}
+
+.icon-search {
+  color: rgb(0, 0, 0);
+  margin-right: 10px;
+}
+.Work {
+  text-align: start;
+  background-color: #c2c0ef;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+#Working {
+  font-size: 25px;
+  color: rgb(126, 8, 0);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-color:deepskyblue;
+  font-weight: bold;
+  border-width: 5px;
+  background-color: lightgray ;
+  width: 200px;
+  border-radius: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+.Disc:hover {
+  color: rgb(124, 86, 238);
+}

@@ -1,0 +1,68 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  border: border-box;
+  background-color: lightblue;
+}
+
+.pales {
+  font-size: 25px;
+  color: black;
+  background-color: rgb(191, 232, 245);
+
+  height: 200px;
+}
+.head {
+  text-align: center;
+  color: rgb(243, 69, 69);
+  background-color: rgb(1, 111, 255);
+  padding: 3px 5px;
+  font-size: 37px;
+  margin-left: 350px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+}
+
+.responsive {
+  margin-top: 10px;
+  height: 475px;
+  margin-left: 510px;
+}
+p {
+  font-size: 25px;
+  text-align: center;
+  font-weight: bolder;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(112, 0, 193);
+  margin-top: 10px;
+}
+th,
+td {
+  border: 9px solid brown;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  height: 150px;
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+.chain {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+#Donate{
+  background-color: rgb(221, 166, 70);
+  font-size: 20px;
+  border-color:rgb(221, 166, 70);
+  border-radius: 13px;
+  padding: 12px 59px 12px;
+  margin-left: 25px;
+  margin-top: 15px;
+  font-weight: bolder;
+
+}
