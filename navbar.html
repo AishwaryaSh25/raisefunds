@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="stylesNew.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <style>
+        
+
+        .navbar {
+            background-color: #c2c0ef;
+            position: sticky;
+            top: 0;
+            overflow: hidden;
+           
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 21px;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        
+         .navbar-right {
+            float: right;
+            
+        }
+      
+  .navbar-right:hover {
+    transform: scale(1.05); 
+  }
+  .navbar-left:hover {
+    transform: scale(1.01); 
+  }
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+  <div class="navbar-left">
+    <a href="navbar.html">Home</a>
+    <a href="working.html">How it works</a>
+  </div>
+    <div class="navbar-right">
+        <a href="signup.html">Login</a>
+        <a href="#">Logout</a>
+        
+    </div>
+</div>
+<div class="RaiseFunds">RaiseFunds</div>
+    
+    <div class="crowd">No. 1 Cryptocurrency based Fundraising Platform</div>
+    <div class="search-box">
+        <input type="text" id="searchInput" oninput="searchFunction()" placeholder="Search fundraisers">
+        
+        <a href="#"><i class="fa fa-search icon-search" ></i></a>
+      </div>
+      <ul id="resultsList">
+        
+        <li> <span><a href="KnowMore4.html"> Coronavirus-Affected 1</a></span>
+          <span><a href="KnowMore41.html"> Coronavirus-Affected 2</a></span>
+        </li>
+        <li> <span><a href="KnowMore1.html"> Education 1</a></span>
+          <span><a href="KnowMore11.html"> Education 2</a></span>
+          <span><a href="KnowMore12.html"> Education 3</a></span>
+        </li>
+        <li> <span><a href="KnowMore2.html"> Charity 1</a></span>
+          <span><a href="KnowMore21.html"> Charity 2</a></span>
+          <span><a href="KnowMore22.html"> Charity 3</a></span>
+        </li>
+        <li> <span><a href="KnowMore3.html"> Medical 1</a></span>
+          <span><a href="KnowMore31.html"> Medical 2</a></span>
+        </li>
+        
+      </ul>
+      <img
+        src="https://img.freepik.com/free-photo/crowdfunding-money-business-bulb-graphic-concept_53876-133920.jpg?size=626&ext=jpg"
+        alt="HeroImage"
+        class="responsive"
+      />
+        
+    <div class="Disc">Discover Fundraisers</div>
+
+    <div class="Cards">
+      <div class="box1 box">
+        <div class="box-content">
+          <h2>Education</h2>
+          <div
+            class="box-img"
+            style="background-image: url('box7_imagenn.jpg')"
+          ></div>
+          <span class="know"><a href="KnowMore1.html" target="_blank">Know More</a></span>
+        </div>
+      </div>
+      <div class="box2 box">
+        <div class="box-content">
+          <h2>Charity</h2>
+          <div
+            class="box-img"
+            style="background-image: url('charity.jpg')"
+          ></div>
+          <span><a href="KnowMore2.html" target="_blank">Know More</a></span>
+        </div>
+      </div>
+      <div class="box3 box">
+        <div class="box-content">
+          <h2>Medical</h2>
+          <div
+            class="box-img"
+            style="background-image: url('medical\ n.jpg')"
+          ></div>
+          <span><a href="KnowMore3.html" target="_blank">Know More</a></span>
+        </div>
+      </div>
+      <div class="box4 box"><div class="box-content">
+        <h2>Coronavirus Affected</h2>
+        <div
+          class="box-img"
+          style="background-image: url('covidn.jpg')"
+        ></div>
+        <span><a href="KnowMore4.html" target="_blank">Know More</a></span>
+      </div>
+       </div>
+    </div>
+
+    <div class="Links"><span><a href="https://youtu.be/8EUGN4C33e8?si=dQeFcDFuwumSvqvn" >Useful link to know more about crowdfunding</a></span></div>
+    <form class="rate">
+      <label for="Rateing">Kindly rate your experience</label><br>
+      <select id="Rating">
+        <option value="Good">Good</option>
+        <option value="Average">Avearge</option>
+        <option value="Bad">Bad</option>
+      </select><br>
+    </form>
+    <script src="script.js"></script>
+
+
+</body>
+</html>
